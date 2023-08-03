@@ -1,0 +1,18 @@
+.list-container{
+    background-color: gray;
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    margin-top: 50px;
+    /* width: 100%; */
+    /* display: block; */
+}
+.list-bar-container{
+    /* background-color: blue; */
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.bar-holder{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}

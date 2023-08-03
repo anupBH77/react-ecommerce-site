@@ -1,0 +1,30 @@
+.text-input{
+    /* border-top: none; */
+    /* background: #000; */
+    /* border: none; */
+    /* border: 0.4px solid rgba(128, 128, 128, 0.633); */
+    /* border-radius: 10px; */
+    padding: 10px;
+    width: 90%;
+    margin: 5px;
+
+
+    /* border-bottom: 1px solid black; */
+    outline: none;
+    /* border-top: 1px solid black; */
+}
+.text-input:focus{
+    /* border: 2px solid rgba(146, 207, 235, 0.999) ; */
+    /* outline: 3px solid rgba(146, 207, 235, 0.682) ; */
+    border: none;
+    /* box-shadow:1px 5px 20px 1px rgba(148, 148, 148, 0.455) ; */
+
+    transition: 70ms ease-out;
+
+    /* outline-offset: 1px; */
+}
+.not-valid{
+    /* outline: red; */
+    color: rgb(255, 51, 0);
+    border:1px solid red;
+}
